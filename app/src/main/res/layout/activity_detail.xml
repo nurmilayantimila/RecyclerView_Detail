@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".DetailActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        style="@style/matcwrap">
+
+        <FrameLayout
+            style="@style/matcwrap">
+
+            <ImageView
+                android:id="@+id/img_item_photo"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_people"
+                android:scaleType="fitXY"/>
+            
+            <TextView
+                android:id="@+id/tv_item_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:drawablePadding="4dp"
+                android:background="#4D000000"
+                android:padding="8dp"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"
+                android:gravity="center_vertical"
+                android:layout_gravity="bottom"/>
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@id/tv_item_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="19sp" />
+
+
+
+        <TableLayout
+            style="@style/matcwrap"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp">
+            <TableRow
+                style="@style/matcwrap"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:text="@string/kandungan_gizi"
+                    android:layout_marginEnd="18dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:text="@string/jumlah"
+                    android:layout_weight="1"/>
+            </TableRow>
+
+            <TableRow
+                style="@style/matcwrap"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:id="@+id/kandgn_gizi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="18dp"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:id="@+id/tv_jmlh_gizi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/nn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="19sp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/cara_membuat" />
+
+        <TextView
+            android:id="@+id/tv_cara_membuat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp" />
+
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

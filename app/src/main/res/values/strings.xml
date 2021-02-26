@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MySubmission_dicoding</string>
+    <string name="about">about</string>
+    <string name="hereos_name">hereos name</string>
+    <string name="kuliner_name" />
+    <string name="detail">detail</string>
+    <string name="cara_membuat">Cara Membuat</string>
+    <string name="kandungan_gizi">Kandungan gizi /100g</string>
+    <string name="jumlah">jumlah</string>
+    <string name="nama_dev">Nurmilayanti</string>
+    <string name="gmail">nurmilayantiii1@gmail.com</string>
+
+</resources>
